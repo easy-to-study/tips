@@ -49,14 +49,25 @@ https://help.github.com/ja/github/managing-your-work-on-github/about-automation-
 参考リンク
 クエリパラメータはカスタマイズ可能な URL のオプション部分で、
             </textarea><br>
-            <input id="submit"type="submit" value="送信"><input type="reset" value="取消">
+            <input id="submit" type="submit" value="送信"><input type="reset" value="取消">
         </div>
     </form>
+
+    <div>
+        <textarea id="bar">Mussum ipsum cacilds...</textarea>
+
+        <button class="btn" data-clipboard-action="cut" data-clipboard-target="#bar">
+            Cut to clipboard
+        </button>
+    </div>
+
 
 
 </body>
 
 
 </html>
-
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script> -->
+<script src="clipboard.min.js"></script>
 <script src="./github_uri_parameter.js"></script>
+

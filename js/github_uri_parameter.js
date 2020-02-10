@@ -17,6 +17,9 @@ $(function () {
         window.open(encodeURI(url), '_blank');
 
     });
+
+    new ClipboardJS('.btn', {
+        container: document.getElementById('bar')
+    });
+
 });
-
-
