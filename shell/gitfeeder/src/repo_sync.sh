@@ -2,7 +2,7 @@
 
 #############ここから#############
 # デプロイしたいディレクトリの場所
-deploy_path=/`pwd`/work
+deploy_path=`pwd`/work
 # デプロイするプロジェクトの名前
 proj_name=git-feed-test
 # リモートリポジトリのURL
