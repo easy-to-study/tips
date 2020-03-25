@@ -2,8 +2,9 @@
 - 参考：https://garicchi.com/?p=20935
 
 ```
-# buildコマンド
-docker run -v ~/.ssh/test:/tmp/.ssh
+# docker コマンド
+docker build -t gitfeeder 
+docker run -it -v ~/.ssh/test:/tmp/.ssh 
 ```
 
 # 参考までに動作ログ
