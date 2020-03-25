@@ -53,3 +53,7 @@ Resolving deltas: 100% (1/1), done.
 cloning success!
 ~ # 
 ```
+
+# 課題
+- know_hostsに入れるときにYes求められている
+- キーフレーズ聞かれている
