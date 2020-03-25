@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #############ここから#############
-# デプロイしたいディレクトリの場所
-deploy_path=`pwd`/work
+# デプロイしたいディレクトリの場所(ローカルならDockerfileがあるところ)
+deploy_path=`pwd`/src/work
 # デプロイするプロジェクトの名前
 proj_name=git-feed-test
 # リモートリポジトリのURL
