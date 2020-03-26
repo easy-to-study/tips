@@ -1,4 +1,4 @@
-[_
+[
     {
         "name": "repo_sync1",
         "source": "https://oauth2:${SOURCE_TOKEN}@github.com/easy-to-study/git-feed-test.git",
