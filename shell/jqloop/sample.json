@@ -1,17 +1,17 @@
-[
+[_
     {
-        "id": 123,
-        "name": "Alice ALICE",
-        "phone": "123-456"
+        "name": "repo_sync1",
+        "source": "https://oauth2:${SOURCE_TOKEN}@github.com/easy-to-study/git-feed-test.git",
+        "destination": "https://oauth2:${SOURCE_TOKEN}@github.com/easy-to-study/git-feed-dist1.git"
     },
     {
-        "id": 456,
-        "name": "Bob BOB",
-        "phone": "456-789"
+        "name": "repo_sync2",
+        "source": "https://source-repo2.git",
+        "destination": "https://destination-repo2.git"
     },
     {
-        "id": 789,
-        "name": "Charlie CHARLIE",
-        "phone": "789-000"
+        "name": "repo3",
+        "source": "https://source-repo3.git",
+        "destination": "https://destination-repo3.git"
     }
 ]
