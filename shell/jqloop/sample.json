@@ -6,12 +6,7 @@
     },
     {
         "name": "repo_sync2",
-        "source": "https://source-repo2.git",
-        "destination": "https://destination-repo2.git"
-    },
-    {
-        "name": "repo3",
-        "source": "https://source-repo3.git",
-        "destination": "https://destination-repo3.git"
+        "source": "https://oauth2:${SOURCE_TOKEN}@github.com/easy-to-study/git-feed-test.git",
+        "destination": "https://oauth2:${SOURCE_TOKEN}@github.com/easy-to-study/git-feed-dist1.git"
     }
 ]
